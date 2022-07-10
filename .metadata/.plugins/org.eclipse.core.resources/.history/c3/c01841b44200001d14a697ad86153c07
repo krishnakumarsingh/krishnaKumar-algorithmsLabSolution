@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class PayMoneyProblem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int noOfTransactions = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the size of transaction array");
+		noOfTransactions = sc.nextInt();
+		int transactionsAmounts[] = new int[noOfTransactions];
+		System.out.println("Enter the values of array");
+	}
+
+}

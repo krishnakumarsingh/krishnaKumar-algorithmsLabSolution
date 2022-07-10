@@ -1,0 +1,10 @@
+package app;
+
+import java.util.Scanner;
+
+public class TransactionInput {
+	Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		System.out.println("Enter the size of transaction array");
+    }
+}
