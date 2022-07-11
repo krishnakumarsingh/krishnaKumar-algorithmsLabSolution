@@ -1,12 +1,12 @@
-package com.currency.driver;
+package TravelerDenominations.main;
 
 import java.util.Scanner;
 
-import com.currency.services.MergeSort;
-import com.currency.services.NotesCount;
+import TravelerDenominations.model.MergeSort;
+import TravelerDenominations.model.NotesCount;
 
-public class CurrencyDenomination {
-	public static void main(String args[]) throws Exception {
+public class DriverClass {
+	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the size of currency denominations");
@@ -23,6 +23,6 @@ public class CurrencyDenomination {
 		NotesCount notesCount = new NotesCount();
 		notesCount.denominationCount(denominations, amountPayable);
 		sc.close();
-	}
 
+	}
 }

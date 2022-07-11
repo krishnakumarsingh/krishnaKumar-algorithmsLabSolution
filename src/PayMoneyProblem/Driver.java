@@ -1,7 +1,6 @@
-package App;
+package PayMoneyProblem;
 
 import java.util.Scanner;
-import App.Service;
 
 public class Driver {
 

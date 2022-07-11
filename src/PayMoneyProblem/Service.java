@@ -1,4 +1,4 @@
-package App;
+package PayMoneyProblem;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.currency.services;
+package TravelerDenominations.model;
 
 public class NotesCount {
 	public void denominationCount(int denominations[], int amountPayable) {

@@ -1,4 +1,4 @@
-package com.currency.services;
+package TravelerDenominations.model;
 
 public class MergeSort {
 
